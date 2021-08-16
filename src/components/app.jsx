@@ -5,10 +5,10 @@ import Counters from "./counters";
 export default class App extends Component {
   render() {
     return (
-      <div>
+      <>
         <Navbar />
         <Counters />
-      </div>
+      </>
     );
   }
 }
