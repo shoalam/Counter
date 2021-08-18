@@ -25,7 +25,11 @@ export default class Counter extends Component {
         >
           -
         </button>
-        <button type="button" className="btn btn-danger m-2">
+        <button
+          onClick={() => this.props.onDelete(this.props.id)}
+          type="button"
+          className="btn btn-danger m-2"
+        >
           Delete
         </button>
       </div>
